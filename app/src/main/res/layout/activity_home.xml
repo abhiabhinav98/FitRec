@@ -37,7 +37,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/steps_count"
                         android:text="@string/zero_step_count"
-                        android:textSize="60sp"
+                        android:textSize="50sp"
                         android:textAlignment="center"
                         android:layout_gravity="center"
                         android:textColor="@color/colorStepCount"
@@ -48,7 +48,7 @@
                         android:layout_height="wrap_content"
                         android:text="STEPS COMPLETED"
                         android:textColor="@android:color/white"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:layout_gravity="center"
                         android:background="@color/colorCardPrompt"/>
 
@@ -68,7 +68,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/steps_target"
                         android:text="@string/zero_step_count"
-                        android:textSize="60sp"
+                        android:textSize="50sp"
                         android:textAlignment="center"
                         android:layout_gravity="center"
                         android:textColor="@color/colorStepCount"
@@ -79,7 +79,7 @@
                         android:layout_height="wrap_content"
                         android:text="STEPS TODO TODAY"
                         android:textColor="@android:color/white"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:layout_gravity="center"
                         android:background="@color/colorCardPrompt"/>
 
@@ -89,7 +89,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="40dp">
+                    android:layout_marginTop="40dp"
+                    android:gravity="center">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -102,8 +103,6 @@
                             android:orientation="vertical"
                             android:background="@drawable/border"
                             android:layout_gravity="left"
-                            android:layout_marginRight="0dp"
-                            
                             >
 
                             <TextView
@@ -111,7 +110,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/calorie_count"
                                 android:text="@string/zero_calorie"
-                                android:textSize="60sp"
+                                android:textSize="50sp"
                                 android:textAlignment="center"
                                 android:layout_gravity="center"
                                 android:textColor="@color/colorStepCount"
@@ -122,7 +121,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Calories"
                                 android:textColor="@android:color/white"
-                                android:textSize="25sp"
+                                android:textSize="20sp"
                                 android:layout_gravity="center"
                                 android:textAlignment="center"
                                 android:background="@color/colorCardPrompt"/>
@@ -142,7 +141,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/distance_done"
                                 android:text="@string/zero_distance"
-                                android:textSize="60sp"
+                                android:textSize="50sp"
                                 android:textAlignment="center"
                                 android:layout_gravity="center"
                                 android:textColor="@color/colorStepCount"
@@ -153,12 +152,44 @@
                                 android:layout_height="wrap_content"
                                 android:text="Distance(kms)"
                                 android:textColor="@android:color/white"
-                                android:textSize="25sp"
+                                android:textSize="20sp"
                                 android:textAlignment="center"
                                 android:layout_gravity="center"
                                 android:background="@color/colorCardPrompt"/>
 
                         </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="START"
+                            android:id="@+id/home_start_button"
+                            android:textSize="20sp"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PAUSE"
+                            android:id="@+id/home_pause_button"
+                            android:textSize="20sp"
+                            android:textAlignment="center"/>
 
                     </LinearLayout>
 

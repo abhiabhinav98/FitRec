@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         try {
-            TimeUnit.SECONDS.sleep(5);
+            //TimeUnit.SECONDS.sleep(5);
             Intent i = new Intent(MainActivity.this, activity_home.class);
             startActivity(i);
         }

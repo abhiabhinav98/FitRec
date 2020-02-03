@@ -1,5 +1,6 @@
 package com.visiofy.fitrec;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -20,13 +21,13 @@ public class activity_home extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    //mTextMessage.setText(R.string.title_home);
+
                     return true;
                 case R.id.navigation_dashboard:
                     //mTextMessage.setText("Dashboard");
                     return true;
                 case R.id.navigation_recommender:
-                    //mTextMessage.setText("Recommendation");
+                    
                     return true;
                 case R.id.navigation_settings:
                    // mTextMessage.setText("Settings");
