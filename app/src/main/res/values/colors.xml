@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorLoader">#13199B</color>
+    <color name="colorToday">#050505</color>
+    <color name="colorStepCount">#F8D007</color>
+    <color name="colorBack">#1C1D1D</color>
+    <color name="colorCardBorder">#2ACC30</color>
+    <color name="colorCardPrompt">#878887</color>
+    <color name="colorCardSteps">#555555</color>
+</resources>
