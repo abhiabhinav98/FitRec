@@ -27,7 +27,7 @@ public class activity_home extends AppCompatActivity {
                     //mTextMessage.setText("Dashboard");
                     return true;
                 case R.id.navigation_recommender:
-                    
+
                     return true;
                 case R.id.navigation_settings:
                    // mTextMessage.setText("Settings");
